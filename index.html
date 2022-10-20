@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Luxuary Resort</title>
+    <link
+      rel="shortcut icon"
+      href="./img/gold-clipart-art-deco-19.png"
+      type="image/x-icon"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="hotel_img">
+      <div class="heading_data">
+        <img src="./img/gold-clipart-art-deco-19.png" alt="" />
+        <h1 class="edyoda_strong">
+          <strong>EDYODA CLUB!</strong>
+        </h1>
+        <h2 class="party_text">ASSIGNMENT PARTY!</h2>
+      </div>
+      <div class="user_input_container">
+        <img src="./img/frame1.png" alt="" />
+        <ul>
+          <li class="user_input_css">
+            <input
+              id="fname"
+              onkeyup="fname()"
+              placeholder="First Name"
+              type="text"
+            />
+          </li>
+          <li class="user_input_css">
+            <input
+              id="lname"
+              onkeyup="fname()"
+              placeholder="Last Name"
+              type="text"
+            />
+          </li>
+          <li>
+            <select class="gender_css" id="gender" onchange="gen()">
+              <option>GENDER</option>
+              <option>MALE</option>
+              <option>FEMALE</option>
+              <option>OTHERS</option>
+            </select>
+          </li>
+          <li class="check_inOut">
+            <h1>DATE</h1>
+            <input id="checkIn" onchange="checkIn()" type="date" />
+          </li>
+          <li class="check_inOut">
+            <h1>TIME</h1>
+            <input id="checkOut" onchange="checkOut()" type="time" />
+          </li>
+          <li>
+            <select class="service_css" id="services" onchange="services()">
+              <option>SELECT YOUR COURSE</option>
+              <option>BACK-END</option>
+              <option>FRON-END</option>
+              <option>FULL-STACK</option>
+            </select>
+          </li>
+        </ul>
+      </div>
+      <div class="right_section">
+        <div class="right_background">
+          <img src="./img/heading1.png" alt="" />
+          <img src="./img/heading3.png" alt="" />
+          <h2 class="welcome">WELCOME</h2>
+          <div class="right_content">
+            <span id="salutation">Mr. / Mrs. </span>
+            <h1 id="fname_output"></h1>
+            <!-- <h1 id="lname_output"></h1> -->
+            <span> Gender</span>
+            <h1 id="gender_output"></h1>
+            <span> DATE</span>
+            <h1 id="ckeckIn_output"></h1>
+            <span> TIME </span>
+            <h1 id="checkOut_output"></h1>
+            <span class="service_premium">
+              <h1 id="service_output">~~ COURSE ~~</h1></span
+            >
+            <!-- <h1 id="service_output"></h1> -->
+          </div>
+        </div>
+      </div>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <div class="heading_data">
+        <img src="./img/gold-clipart-art-deco-19.png" alt="" />
+        <h1 class="edyoda_strong"><strong>EDYODA CLUB!</strong></h1>
+      </div>
+      <div class="footer_text"><h6>enjoy THE LUXUARY OF LEARNING</h6></div>
+    </section>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
