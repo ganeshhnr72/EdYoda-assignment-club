@@ -72,7 +72,7 @@
   margin-left: 150px;
   margin-top: 11.3%;
   /* border-radius: 30px; */
-  background: linear-gradient(to left, #683207 10%, #2a1c0ed8 100%);
+  background: linear-gradient(to right, #683207 10%, #2a1c0ed8 100%);
 }
 .user_input_container ul li {
   margin: 20px 0px 0px 15px;
@@ -156,7 +156,7 @@
   height: 350px;
   width: 350px;
   border-radius: 55px;
-  background: linear-gradient(to left, #2a1c0ed8 10%, #683207 100%);
+  background: linear-gradient(to right, #2a1c0ed8 10%, #683207 100%);
 }
 .right_section img {
   position: absolute;
